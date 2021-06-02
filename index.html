@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Welcome Stranger</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="Pexels Videos 3437.mp4" muted loop autoplay></video>
+        
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Jesus Ugarte</h2>
+            <h3>Computer Science Student</h3>
+
+            <p>University of Central Florida</p>
+            <a class="story-toggle"  href="#">my story</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="https://github.com/jesusugarte10"><img src="github_PNG58.png" alt=""></a></li>
+            <li><a href="https://www.kaggle.com/jesusugarte"><img src="kaggle-logo-transparent-300.png" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/in/jesusugarte/"><img src="linkedIn_PNG38.png" alt=""></a></li>
+        </ul>
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Why a Cactus?</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
