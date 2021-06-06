@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css" 
 </head>
+
 <body>
     <section class="showcase">
         <header>
@@ -13,40 +15,58 @@
             <div class="toggle"></div>
         </header>
 
-        <video src="Pexels Videos 3437.mp4" muted loop autoplay></video>
-        
+        <video src="/Media/Pexels Videos 3437.mp4" muted loop autoplay></video>
+
         <div class="overlay"></div>
 
         <div class="text">
             <h2>Jesus Ugarte</h2>
-            <h3>Computer Science Student</h3>
+            <h3 id="sub"></h3>
 
             <p>University of Central Florida</p>
-            <a class="story-toggle"  href="#">my story</a>
+            <a class="story-toggle" href="https://github.com/jesusugarte10" rel="noopener noreferrer" target="_blank"><img>Current Projects</a>
         </div>
 
         <ul class="social">
-            <li><a href="https://github.com/jesusugarte10"><img src="github_PNG58.png" alt=""></a></li>
-            <li><a href="https://www.kaggle.com/jesusugarte"><img src="kaggle-logo-transparent-300.png" alt=""></a></li>
-            <li><a href="https://www.linkedin.com/in/jesusugarte/"><img src="linkedIn_PNG38.png" alt=""></a></li>
+            <li><a href="https://github.com/jesusugarte10" rel="noopener noreferrer" target="_blank"><img
+                        src="/Media/github_PNG58.png" alt=""></a></li>
+            <li><a href="https://www.kaggle.com/jesusugarte" rel="noopener noreferrer" target="_blank"><img
+                        src="/Media/kaggle-logo-transparent-300.png" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/in/jesusugarte/" rel="noopener noreferrer" target="_blank""><img 
+                        src="/Media/linkedIn_PNG38.png" alt=""></a></li>
         </ul>
-
+      
     </section>
 
     <div class="menu">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Why a Cactus?</a></li>
+            <li><a href="my_story.html">My story</a></li>
+            <li><a href="/Media/RESUME.pdf" rel="noopener noreferrer" target="_blank" >Resume</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
     <script>
+        new TypeIt("#sub", {
+            speed: 90,
+            loop: true
+        }).pause(1000).type("I am ").pause(800)
+        .type("a student").pause(800).delete(9)
+        .type("a software developer").pause(800).delete(20)
+        .type("self learner").pause(800).delete(12)
+        .type("a space enthusiast").pause(800).delete(18)
+        .type("a human being").pause(800).delete(23)
+        .type("you are an human being too").pause(1800).go();
+
         const menuToggle = document.querySelector('.toggle')
         const showcase = document.querySelector('.showcase')
+        const menu = document.querySelector('.menu')
 
         menuToggle.addEventListener('click', () => {
             menuToggle.classList.toggle('active')
             showcase.classList.toggle('active')
+            menu.classList.toggle('active')
         })
     </script>
 </body>

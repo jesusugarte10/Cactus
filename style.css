@@ -4,6 +4,10 @@
     --overlay-color: #03a9f4
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
 
     box-sizing: border-box;
@@ -12,7 +16,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.showcase{
+.showcase {
     position: absolute;
     right: 0;
     width: 100%;
@@ -24,7 +28,7 @@
     background: #111;
     color: #fff;
     z-index: 2;
-    transition: 0.5s;
+    transition: 0.5s ;
 }
 
 .showcase ul{
@@ -47,7 +51,6 @@
     justify-content: space-between;
 }
 
-
 .logo{
     text-transform: uppercase;
     cursor: pointer;
@@ -57,7 +60,7 @@
     position: relative;
     width: 60px;
     height: 60px;
-    background: url('menu.png');
+    background: url('/Media/menu.png');
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
@@ -65,7 +68,7 @@
 }
 
 .toggle.active {
-    background: url('close.png');
+    background: url('/Media/close.png');
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
@@ -79,7 +82,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.6; 
+    opacity: 0.3; 
 }
 
 .overlay {
@@ -93,26 +96,22 @@
 }
 
 .text {
-    position: relative;
+    position: absolute;
     z-index: 10;
 }
 
 .text h2 {
     font-size: 5em;
     font-weight: 800;
-    line-height: 1em;
+    line-height: 2em;
     text-transform: uppercase;
 }
 
 .text h3 {
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 700;
     line-height: 1em;
     text-transform: uppercase;
-}
-
-.text h3 span{
-    color: chocolate;
 }
 
 .text p {
@@ -177,6 +176,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: white;
+}
+
+.menu.active{
+    right: 0px;
 }
 
 .menu ul {
@@ -192,6 +196,12 @@
 
 .menu ul li a:hover{
     color: var(--overlay-color);
+}
+
+#main {
+    position: absolute;
+    margin-top: 100vh;
+    height: 100vh;
 }
 
 @media(max-width: 791px){
