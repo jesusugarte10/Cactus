@@ -4,10 +4,6 @@
     --overlay-color: #03a9f4
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 * {
 
     box-sizing: border-box;
@@ -60,7 +56,7 @@ html {
     position: relative;
     width: 60px;
     height: 60px;
-    background: url('menu.png');
+    background: url('https://github.com/jesusugarte10/cactus/menu.png');
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
@@ -68,7 +64,7 @@ html {
 }
 
 .toggle.active {
-    background: url('close.png');
+    background: url('https://github.com/jesusugarte10/cactus/close.png');
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
@@ -92,6 +88,16 @@ html {
     width: 100%;
     height: 100%;
     background: var(--overlay-color);
+    mix-blend-mode: overlay;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: gray;
     mix-blend-mode: overlay;
 }
 
