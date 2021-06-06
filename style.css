@@ -60,7 +60,7 @@ html {
     position: relative;
     width: 60px;
     height: 60px;
-    background: url('Media/menu.png');
+    background: url('https://github.com/jesusugarte10/Media/menu.png');
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
@@ -68,7 +68,7 @@ html {
 }
 
 .toggle.active {
-    background: url('Media/close.png');
+    background: url('https://github.com/jesusugarte10/Media/close.png');
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
