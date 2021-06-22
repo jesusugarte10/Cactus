@@ -21,10 +21,23 @@
 
         <div class="text">
             <h2>SITE UNDER CONSTRUCTION</h2>
-            <h4>Im Still learning how to do stuff like this =)</h4>
+            <h4 id="sub"></h4>
         </div>
     </section>
 
+    
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+    <script>
 
+        fetch('story.txt')
+        .then(response => response.text())
+        .then(data => {
+            new TypeIt("#sub", {
+            speed: 90
+            }).type(console.log(data)).go(); 
+            console.log(data);
+        });
+
+    </script>
 </body>
 </html>
