@@ -13,30 +13,6 @@
 }
 
 
-#videoBG {
-    position:fixed;
-    z-index: -1;
-}
-@media (min-aspect-ratio: 16/9) {
-    #videoBG {
-        width:100%;
-        height: auto;
-    }
-}
-@media (max-aspect-ratio: 16/9) {
-    #videoBG { 
-        width:auto;
-        height: 100%;
-    }
-}
-@media (max-width: 767px) {
-    #videoBG {
-        display: none;
-    }
-    body {
-        background-size: cover;
-    }
-}
 
 .showcase {
     position: absolute;
@@ -96,13 +72,26 @@
 
 .showcase video{
 
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     opacity: 0.3; 
+
+    @media (min-aspect-ratio: 16/9) {
+        width:100%;
+        height: auto;
+    }
+    @media (max-aspect-ratio: 16/9) {
+        width:auto;
+        height: 100%;
+    }
+    @media (max-width: 767px) {
+        display: none;
+    }
+    
 }
 
 .overlay {
