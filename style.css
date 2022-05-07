@@ -59,6 +59,7 @@
 .logo{
     text-transform: uppercase;
     cursor: pointer;
+    color: #111;
 }
 
 .toggle {
