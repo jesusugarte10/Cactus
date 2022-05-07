@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" 
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Graduation Day</h2>
+            <div class="toggle"><a href="index.html"><img src="close.png" alt="" position= "relative" width= "50px" height= "50px"></a></div>
+        </header>
+
+        <video src="dancing.mp4" loop autoplay></video>
+
+        <div class="overlay2"></div>
+
+        <div class="text">
+            <h2>Commencement</h2>
+            <p id="sub" align></p>
+        </div>
+    </section>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+    <script>
+
+        new TypeIt("#sub", {
+            speed: 30
+        }).type("Me Puse las Pilas y Me Gradue").go()
+    </script>
+</body>
+</html>
