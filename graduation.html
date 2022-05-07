@@ -29,8 +29,15 @@
     <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
     <script>
         new TypeIt("#sub", {
-            speed: 30,
-        }).type("Gracias Mama por Todo").go()
+            speed: 20,
+            loop: true
+        }).pause(1000).type("Gracias Mama Por").pause(800)
+        .type("Apoyarme").pause(800).delete(8)
+        .type("Creer en Mi").pause(800).delete(11)
+        .type("desde siempre").pause(800).delete(29)
+        .type("BS Computer Science").pause(1800).go();
+
+
     </script>
 </body>
 </html>
