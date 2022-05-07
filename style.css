@@ -15,9 +15,8 @@
 
 .image{
     align-items: center;
-    position: fixed;
-    margin-top: 0cm;
-    margin-bottom: 0%;
+    height: auto;
+    width: 100%;
 }
 
 
@@ -59,7 +58,6 @@
 .logo{
     text-transform: uppercase;
     cursor: pointer;
-    color: #111;
 }
 
 .toggle {
@@ -110,7 +108,7 @@
 }
 
 .colorblack{
-    color: black;
+    color: white;
 }
 
 .text {
