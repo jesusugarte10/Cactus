@@ -13,6 +13,13 @@
 }
 
 
+.image{
+    align-items: center;
+    position: fixed;
+    margin-top: 0cm;
+    margin-bottom: 0%;
+}
+
 
 .showcase {
     position: absolute;
@@ -99,6 +106,10 @@
     height: 100%;
     background: gray;
     mix-blend-mode: overlay;
+}
+
+.colorblack{
+    color: black;
 }
 
 .text {
