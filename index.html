@@ -4,19 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <meta name="description" content="Jesus Ugarte - Full Stack Software Engineer | Gen AI Integration | DevOps | Mobile Development | Computer Vision | Mixed Reality">
+    <title>Jesus Ugarte - Full Stack Software Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <section class="showcase">
+    <!-- Hero Section with Parallax -->
+    <section class="showcase parallax-section" id="home">
         <header>
-            <h2 class="logo">Welcome Stranger</h2>
-            <div class="toggle"><img src="menu.png" alt="" position= "relative" width= "50px" height= "50px"></div>
+            <h2 class="logo">Jesus Ugarte</h2>
+            <div class="toggle"><img src="assets/icons/menu.png" alt="Menu" width="50" height="50"></div>
         </header>
 
-        <video playsinline autoplay muted loop >
-            <source src="MR.mp4" type="video/mp4">
+        <video playsinline autoplay muted loop class="parallax-video">
+            <source src="assets/videos/MR.mp4" type="video/mp4">
+            Your browser does not support the video tag.
         </video>
 
         <div class="overlay"></div>
@@ -24,53 +28,328 @@
         <div class="text">
             <h2>Jesus Ugarte</h2>
             <h3 id="sub"></h3>
-
-            <p>University of Central Florida</p>
-            <a class="story-toggle" href="my_story.html"><img>My Story</a>
+            <p>Full Stack Software Engineer | Gen AI Integration | DevOps | Mobile Development</p>
+            <p>Computer Vision | Mixed Reality | Space Enthusiast</p>
+            <a class="story-toggle" href="#projects">View Projects</a>
         </div>
 
         <ul class="social">
-            <li><a href="https://github.com/jesusugarte10" rel="noopener noreferrer" target="_blank"><img
-                        src="github_PNG58.png" alt=""></a></li>
-            <li><a href="https://www.kaggle.com/jesusugarte" rel="noopener noreferrer" target="_blank"><img
-                        src="kaggle-logo-transparent-300.png" alt=""></a></li>
-            <li><a href="https://www.linkedin.com/in/jesusugarte/" rel="noopener noreferrer" target="_blank""><img 
-                        src="linkedIn_PNG38.png" alt=""></a></li>
+            <li><a href="https://github.com/jesusugarte10" rel="noopener noreferrer" target="_blank" aria-label="GitHub"><img
+                        src="assets/icons/github_PNG58.png" alt="GitHub"></a></li>
+            <li><a href="https://www.kaggle.com/jesusugarte" rel="noopener noreferrer" target="_blank" aria-label="Kaggle"><img
+                        src="assets/icons/kaggle-logo-transparent-300.png" alt="Kaggle"></a></li>
+            <li><a href="https://www.linkedin.com/in/jesusugarte/" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn"><img 
+                        src="assets/icons/linkedIn_PNG38.png" alt="LinkedIn"></a></li>
         </ul>
-      
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="projects-container">
+            <h2 class="projects-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- DJ Request App -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>DJ Request App</h3>
+                        <span class="project-badge">Live</span>
+                    </div>
+                    <p class="project-description">A full-stack application for managing DJ song requests in real-time. Built with modern web technologies for seamless user experience.</p>
+                    <div class="project-links">
+                        <a href="https://www.djrequest.net" target="_blank" rel="noopener noreferrer" class="project-link">Visit Site</a>
+                    </div>
+                </div>
+
+                <!-- Salsa Tempo App -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Salsa Tempo App</h3>
+                        <span class="project-badge">Live</span>
+                    </div>
+                    <p class="project-description">A specialized application for salsa dancers to find and manage rueda tempo. Features real-time tempo detection and community features.</p>
+                    <div class="project-links">
+                        <a href="https://salsa-rueda-app.onrender.com" target="_blank" rel="noopener noreferrer" class="project-link">Visit Site</a>
+                    </div>
+                </div>
+
+                <!-- Machine Learning -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Machine Learning Projects</h3>
+                        <span class="project-badge">ML/AI</span>
+                    </div>
+                    <p class="project-description">Collection of machine learning projects and implementations from UCF Machine Learning coursework.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/jesusugarte10/Machine_Learning" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Mixed Reality Projects -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Mixed Reality Projects</h3>
+                        <span class="project-badge">MR/AR</span>
+                    </div>
+                    <p class="project-description">Collection of Mixed Reality and Augmented Reality projects showcasing immersive technology development, 3D interactions, and spatial computing applications.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/jesusugarte10" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Satellite TCP Communication -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Satellite TCP Communication</h3>
+                        <span class="project-badge">Python</span>
+                    </div>
+                    <p class="project-description">Satellite dump data analysis project focusing on TCP communication protocols and data processing.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/jesusugarte10/Satelite_TCP_Communication" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Harvard CS50 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Harvard CS50 </h3>
+                        <span class="project-badge">C</span>
+                    </div>
+                    <p class="project-description">Code solutions and projects from Harvard's CS50 course, demonstrating strong fundamentals in computer science.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/jesusugarte10/Harvard_CS50" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="github-link-container">
+                <a href="https://github.com/jesusugarte10" target="_blank" rel="noopener noreferrer" class="github-all-link">View All Projects on GitHub →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-intro">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>Email:</strong>
+                    <a href="mailto:Jesusugarte10@gmail.com" class="contact-link">Jesusugarte10@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <strong>LinkedIn:</strong>
+                    <a href="https://www.linkedin.com/in/jesusugarte/" target="_blank" rel="noopener noreferrer" class="contact-link">linkedin.com/in/jesusugarte</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Story Section with Parallax -->
+    <section class="story-section parallax-section" id="story">
+        <div class="parallax-bg">
+            <video playsinline autoplay muted loop class="parallax-video">
+                <source src="assets/videos/LAUNCH.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay2"></div>
+        </div>
+        <div class="section-content">
+            <h2 class="section-title">My Journey</h2>
+            <p id="story-text" class="story-content"></p>
+        </div>
+    </section>
+
+    <!-- Graduation Section with Parallax -->
+    <section class="graduation-section parallax-section" id="graduation">
+        <div class="parallax-bg">
+            <img class="parallax-image" src="assets/images/grad.PNG" alt="Graduation Photo">
+            <div class="overlay2"></div>
+        </div>
+        <div class="section-content">
+            <h2 class="section-title">Reaching for the Stars 🚀✨</h2>
+            <p id="graduation-text" class="graduation-content"></p>
+        </div>
+    </section>
+
+
+    <!-- Fun Video Section -->
+    <section class="fun-video-section parallax-section" id="fun">
+        <div class="fun-video-container">
+            <h2 class="section-title">A Little Fun 🎉</h2>
+            <div class="video-wrapper">
+                <video playsinline autoplay muted loop controls class="fun-video">
+                    <source src="assets/videos/dancing.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
     </section>
 
     <div class="menu">
         <ul>
-            <li><a class="story-toggle" href="https://github.com/jesusugarte10" rel="noopener noreferrer" target="_blank">Current Projects</a></li>
-            <li><a href="RESUME.pdf"  rel="noopener noreferrer" target="_blank" >Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="graduation.html">Graduation</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#story">My Story</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#graduation">Graduation</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="assets/documents/RESUME.pdf" rel="noopener noreferrer" target="_blank">Resume</a></li>
         </ul>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
     <script>
+        // Wait for DOM and TypeIt to be ready
+        document.addEventListener('DOMContentLoaded', function() {
+            // Hero animated text
         new TypeIt("#sub", {
             speed: 90,
-            loop: true
-        }).pause(1000).type("I am ").pause(800)
-        .type("a student").pause(800).delete(9)
-        .type("a software developer").pause(800).delete(20)
-        .type("self learner").pause(800).delete(12)
-        .type("a space enthusiast").pause(800).delete(18)
-        .type("a human being").pause(800).delete(23)
-        .type("you are an human being too").pause(1800).go();
+                loop: true,
+                waitUntilVisible: true,
+                cursor: false
+            })
+            .pause(1000)
+            .type("I am ")
+            .pause(800)
+            .type("a Full Stack Engineer")
+            .pause(800)
+            .delete(22)
+            .type("a Gen AI Specialist")
+            .pause(800)
+            .delete(19)
+            .type("a DevOps Engineer")
+            .pause(800)
+            .delete(18)
+            .type("a Mobile Developer")
+            .pause(800)
+            .delete(18)
+            .type("a Computer Vision Researcher")
+            .pause(800)
+            .delete(26)
+            .type("a Mixed Reality Developer")
+            .pause(800)
+            .delete(25)
+            .type("a Space Enthusiast")
+            .pause(1800)
+            .go();
 
-        const menuToggle = document.querySelector('.toggle')
-        const showcase = document.querySelector('.showcase')
-        const menu = document.querySelector('.menu')
+            // Story text
+            new TypeIt("#story-text", {
+                speed: 50,
+                waitUntilVisible: true,
+                cursor: false
+            }).type("I am a Full Stack Software Engineer with a BS in Computer Science from the University of Central Florida. My passion for technology extends across multiple domains including Gen AI Integration, DevOps, Mobile Development, Computer Vision, and Mixed Reality. I am deeply fascinated by Space Exploration and have had the privilege of attending rocket launches like the one in this video. My love for Astronomy and outdoor adventures drives my curiosity and fuels my continuous learning journey in both technology and the cosmos.").go();
+
+            // Graduation text
+            new TypeIt("#graduation-text", {
+                speed: 150,
+                loop: true,
+                waitUntilVisible: true,
+                cursor: false
+            }).pause(1000).type("Gracias Mama Por: ").pause(800)
+            .type("Apoyarme Siempre").pause(800).delete(16)
+            .type("Creer en Mi").pause(800).delete(30)
+            .type("My Hero").pause(800).delete(7)
+            .type("BS Computer Science").pause(1800).go();
+        });
+
+        // Menu toggle
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+        const menu = document.querySelector('.menu');
 
         menuToggle.addEventListener('click', () => {
-            menuToggle.classList.toggle('active')
-            showcase.classList.toggle('active')
-            menu.classList.toggle('active')
-        })
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+            menu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        const menuLinks = document.querySelectorAll('.menu a');
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('active');
+                showcase.classList.remove('active');
+                menu.classList.remove('active');
+            });
+        });
+
+        // Close menu when clicking on backdrop
+        document.addEventListener('click', (e) => {
+            if (menu.classList.contains('active')) {
+                const isClickInsideMenu = menu.contains(e.target);
+                const isClickOnToggle = menuToggle.contains(e.target);
+                
+                if (!isClickInsideMenu && !isClickOnToggle) {
+                    menuToggle.classList.remove('active');
+                    showcase.classList.remove('active');
+                    menu.classList.remove('active');
+                }
+            }
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Parallax scrolling effect (disabled on mobile for performance)
+        let ticking = false;
+        const isMobile = window.innerWidth <= 768;
+        
+        function updateParallax() {
+            if (isMobile) return; // Disable parallax on mobile
+            
+            const scrolled = window.pageYOffset;
+            const parallaxElements = document.querySelectorAll('.parallax-video, .parallax-image');
+            
+            parallaxElements.forEach(element => {
+                const speed = 0.5;
+                element.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+            
+            ticking = false;
+        }
+        
+        function requestParallaxTick() {
+            if (!ticking) {
+                window.requestAnimationFrame(updateParallax);
+                ticking = true;
+            }
+        }
+        
+        window.addEventListener('scroll', requestParallaxTick, { passive: true });
+        
+        // Handle resize to update mobile detection
+        let resizeTimer;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(() => {
+                const newIsMobile = window.innerWidth <= 768;
+                if (newIsMobile !== isMobile) {
+                    location.reload(); // Reload if orientation changes significantly
+                }
+            }, 250);
+        }, { passive: true });
+        
+        // Prevent zoom on double tap (iOS)
+        let lastTouchEnd = 0;
+        document.addEventListener('touchend', (e) => {
+            const now = Date.now();
+            if (now - lastTouchEnd <= 300) {
+                e.preventDefault();
+            }
+            lastTouchEnd = now;
+        }, { passive: false });
     </script>
 </body>
 </html>
