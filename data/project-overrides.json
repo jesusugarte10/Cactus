@@ -1,0 +1,201 @@
+{
+  "snapshotDate": "2026-05-05",
+  "hiddenRepos": [
+    "Vibrator-Mobile-App"
+  ],
+  "featuredProducts": [
+    {
+      "id": "dj-request",
+      "title": "DJ Request",
+      "kind": "featured_product",
+      "repoUrl": "",
+      "liveUrl": "https://www.djrequest.net",
+      "summary": "QR-based song requests, optional paid requests, and a moderated photo wall built for DJs, karaoke, and live events.",
+      "language": "",
+      "updatedAt": "2026-05-05",
+      "createdAt": "",
+      "displayOrder": 1,
+      "tags": ["Private Product", "Live Platform", "Events"],
+      "visibilityNote": "Private product with live site"
+    },
+    {
+      "id": "caciqueai",
+      "title": "CaciqueAI",
+      "kind": "featured_product",
+      "repoUrl": "",
+      "liveUrl": "https://caciqueai.web.app",
+      "summary": "Professional WhatsApp automation dashboard for workshops, products, and customer support workflows.",
+      "language": "",
+      "updatedAt": "2026-05-05",
+      "createdAt": "",
+      "displayOrder": 2,
+      "tags": ["Private Product", "AI", "Automation"],
+      "visibilityNote": "Private product with live site"
+    },
+    {
+      "id": "voyage",
+      "title": "CFI Flight Instructor / Voyage",
+      "kind": "featured_product",
+      "repoUrl": "",
+      "liveUrl": "https://voyage-99.web.app",
+      "summary": "Flight training management platform built around scheduling, structured debriefs, progress tracking, and billing workflows.",
+      "language": "",
+      "updatedAt": "2026-05-05",
+      "createdAt": "",
+      "displayOrder": 3,
+      "tags": ["Private Product", "SaaS", "Aviation"],
+      "visibilityNote": "Private product with live site"
+    },
+    {
+      "id": "spicy-dancer",
+      "title": "Salsa Training / Spicy Dancer",
+      "kind": "featured_product",
+      "repoUrl": "",
+      "liveUrl": "https://salsa-rueda-app.web.app",
+      "summary": "AI-powered salsa training experience for calling rueda figures and improving practice rhythm.",
+      "language": "",
+      "updatedAt": "2026-05-05",
+      "createdAt": "",
+      "displayOrder": 4,
+      "tags": ["Private Product", "AI", "Training"],
+      "visibilityNote": "Private product with live site"
+    }
+  ],
+  "repoOverrides": {
+    "Sports-Event-Dashboard-Fastbreak-Interview": {
+      "title": "Fastbreak Interview Dashboard",
+      "summary": "TypeScript sports-event dashboard prototype built for the Fastbreak code challenge.",
+      "tags": ["TypeScript", "Dashboard", "Live Demo"]
+    },
+    "Solar-Eclipse-2024-Data-Analysis": {
+      "title": "Solar Eclipse 2024 Data Analysis",
+      "summary": "Python analysis project centered on solar eclipse observations, experiments, and data exploration.",
+      "tags": ["Python", "Data Analysis", "Astronomy"]
+    },
+    "Computer-Vision": {
+      "title": "Computer Vision",
+      "summary": "Computer vision repository covering experiments, assignments, and image-processing exploration.",
+      "tags": ["C++", "Computer Vision"]
+    },
+    "crystal-vault": {
+      "title": "Crystal Vault",
+      "summary": "Research-driven public project documenting surveillance infrastructure through open APIs and investigative tooling.",
+      "tags": ["Research", "Open Data", "Live Demo"]
+    },
+    "Cactus": {
+      "title": "Cactus Portfolio",
+      "summary": "Static portfolio site for presenting product work, engineering focus, and project archive.",
+      "tags": ["CSS", "Portfolio", "Live Demo"]
+    },
+    "UCF-DATA-Structures": {
+      "title": "UCF Data Structures",
+      "summary": "Java coursework repository focused on core data structures and implementation practice.",
+      "tags": ["Java", "Coursework"]
+    },
+    "Residence-Life-HouseKeeping-App": {
+      "title": "Residence Life Housekeeping App",
+      "summary": "JavaScript application concept for residence life and housekeeping workflow management.",
+      "tags": ["JavaScript", "Operations"]
+    },
+    "Salsa_Tempo_Terminal_Version": {
+      "title": "Salsa Tempo Terminal Version",
+      "summary": "Python-based rhythm and timing tool for salsa training and tempo-focused practice workflows.",
+      "tags": ["Python", "Music", "Training"]
+    },
+    "Computer-Logic": {
+      "title": "Computer Logic",
+      "summary": "Final project work from computer organization and logic coursework.",
+      "tags": ["C", "Systems", "Coursework"]
+    },
+    "JAVA-DATA-STRUCTURES": {
+      "title": "Java Data Structures",
+      "summary": "Java repository focused on foundational data structures and class exercises.",
+      "tags": ["Java", "Coursework"]
+    },
+    "Azure-GeoLocation-API": {
+      "title": "Azure GeoLocation API",
+      "summary": "Python exploration of geolocation services and Azure-backed API experimentation.",
+      "tags": ["Python", "API", "Azure"]
+    },
+    "jesusugarte10": {
+      "title": "GitHub Profile Repository",
+      "summary": "Profile repository powering the public GitHub presence and account presentation.",
+      "tags": ["Profile", "GitHub"]
+    },
+    "Machine_Learning": {
+      "title": "Machine Learning",
+      "summary": "Machine learning coursework and experiments from UCF, covering models, notebooks, and practical implementations.",
+      "tags": ["Machine Learning", "Notebook"]
+    },
+    "Satelite_TCP_Communication": {
+      "title": "Satellite TCP Communication",
+      "summary": "Python project focused on satellite dump data analysis and TCP communication concepts.",
+      "tags": ["Python", "Networking", "Data"]
+    },
+    "Chat_Server": {
+      "title": "Chat Server",
+      "summary": "Python chat server project focused on socket-based communication and networking fundamentals.",
+      "tags": ["Python", "Networking"]
+    },
+    "LeetCode-Blind-Curated-75": {
+      "title": "LeetCode Blind Curated 75",
+      "summary": "Problem-solving archive for the Blind 75 interview set and solution recall practice.",
+      "tags": ["Interview Prep", "Algorithms"]
+    },
+    "GitHubGraduation-2022": {
+      "title": "GitHub Graduation 2022",
+      "summary": "Small public project connected to the GitHub Graduation yearbook experience.",
+      "tags": ["JavaScript", "Community"]
+    },
+    "Hololens_Hand_Extension": {
+      "title": "HoloLens Hand Extension",
+      "summary": "C# mixed reality prototype work focused on hand interaction extensions for HoloLens experiences.",
+      "tags": ["C#", "Mixed Reality"]
+    },
+    "React_Native_Leaderboard": {
+      "title": "React Native Leaderboard",
+      "summary": "React Native leaderboard application built as part of a larger MERN-oriented student project.",
+      "tags": ["JavaScript", "React Native", "Mobile"]
+    },
+    "MixedRealityToolkit-Unity": {
+      "title": "Mixed Reality Toolkit Unity",
+      "summary": "Unity-based mixed reality toolkit repository used for MRTK experimentation and development reference.",
+      "tags": ["Unity", "Mixed Reality"]
+    },
+    "Contact-Master-AllParts": {
+      "title": "Contact Master All Parts",
+      "summary": "Master repository bringing together approved front-end and back-end work for the Contact Master project.",
+      "tags": ["JavaScript", "Full Stack"]
+    },
+    "contact-master-front-end": {
+      "title": "Contact Master Front End",
+      "summary": "Front-end implementation for the Contact Master application.",
+      "tags": ["JavaScript", "Frontend"]
+    },
+    "Auto-Annotate": {
+      "title": "Auto Annotate",
+      "summary": "Automation tool for labeling and segmenting images across large directories with COCO and custom label support.",
+      "tags": ["Automation", "Computer Vision"]
+    },
+    "ucf-fe": {
+      "title": "UCF Foundation Exam App",
+      "summary": "Application built to help UCF students prepare for the computer science foundation exam.",
+      "tags": ["Education", "Live Demo"]
+    },
+    "Artificial_Intelligence": {
+      "title": "Artificial Intelligence",
+      "summary": "Repository of artificial intelligence coursework, notes, and supporting code.",
+      "tags": ["AI", "Notebook"]
+    },
+    "UCF_CS1": {
+      "title": "UCF CS1",
+      "summary": "Early computer science coursework repository focused on C foundations and class exercises.",
+      "tags": ["C", "Coursework"]
+    },
+    "Harvard_CS50": {
+      "title": "Harvard CS50",
+      "summary": "Code solutions and exercises completed for Harvard's CS50 coursework.",
+      "tags": ["C", "Coursework"]
+    }
+  }
+}
