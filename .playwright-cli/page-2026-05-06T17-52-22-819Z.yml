@@ -1,0 +1,669 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - link "Jesus Ugarte" [ref=e3] [cursor=pointer]:
+      - /url: "#home"
+    - navigation "Primary navigation" [ref=e4]:
+      - link "Home" [ref=e5] [cursor=pointer]:
+        - /url: "#home"
+      - link "Projects" [ref=e6] [cursor=pointer]:
+        - /url: "#featured-products"
+      - link "Experience" [ref=e7] [cursor=pointer]:
+        - /url: "#experience"
+      - link "Journey" [ref=e8] [cursor=pointer]:
+        - /url: "#journey"
+      - link "Graduation" [ref=e9] [cursor=pointer]:
+        - /url: "#graduation"
+      - link "Contact" [ref=e10] [cursor=pointer]:
+        - /url: "#contact"
+      - link "Resume" [ref=e11] [cursor=pointer]:
+        - /url: assets/documents/RESUME.pdf
+  - main [ref=e12]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - heading "Jesus Ugarte" [level=1] [ref=e16]
+        - paragraph [ref=e17]:
+          - text: I build as a
+          - generic [ref=e18]: Gen AI Specialist
+        - generic [ref=e19]:
+          - paragraph [ref=e20]: Full Stack Software Engineer | Gen AI Integration | DevOps | Mobile Development
+          - paragraph [ref=e21]: Computer Vision | Mixed Reality | Space Enthusiast
+        - paragraph [ref=e22]: Production-minded engineer focused on shipping useful software across AI-enabled products, full-stack systems, mixed reality prototypes, and mobile experiences.
+        - generic [ref=e23]:
+          - link "View Projects" [ref=e24] [cursor=pointer]:
+            - /url: "#featured-products"
+          - link "Open Resume" [ref=e25] [cursor=pointer]:
+            - /url: assets/documents/RESUME.pdf
+        - list "Social links" [ref=e26]:
+          - listitem [ref=e27]:
+            - link "GitHub" [ref=e28] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10
+          - listitem [ref=e29]:
+            - link "LinkedIn" [ref=e30] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/jesusugarte/
+          - listitem [ref=e31]:
+            - link "Kaggle" [ref=e32] [cursor=pointer]:
+              - /url: https://www.kaggle.com/jesusugarte
+      - generic [ref=e34]:
+        - generic "Mixed reality demo footage" [ref=e35]
+        - generic [ref=e36]:
+          - generic [ref=e37]: Mixed reality prototype footage
+          - generic [ref=e38]: Real project video
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - heading "Featured Products" [level=2] [ref=e41]
+        - paragraph [ref=e42]: A curated look at private product work and live platforms, followed by research proof from mixed reality publications and public evidence.
+      - generic [ref=e43]:
+        - article [ref=e44]:
+          - generic [ref=e46]: Private product with live site
+          - generic [ref=e47]:
+            - heading "DJ Request" [level=3] [ref=e48]
+            - paragraph [ref=e49]: QR-based song requests, optional paid requests, and a moderated photo wall built for DJs, karaoke, and live events.
+          - generic [ref=e50]:
+            - generic [ref=e51]: Private Product
+            - generic [ref=e52]: Live Platform
+            - generic [ref=e53]: Events
+          - link "Visit Live Site" [ref=e55] [cursor=pointer]:
+            - /url: https://www.djrequest.net
+        - article [ref=e56]:
+          - generic [ref=e58]: Private product with live site
+          - generic [ref=e59]:
+            - heading "CaciqueAI" [level=3] [ref=e60]
+            - paragraph [ref=e61]: Professional WhatsApp automation dashboard for workshops, products, and customer support workflows.
+          - generic [ref=e62]:
+            - generic [ref=e63]: Private Product
+            - generic [ref=e64]: AI
+            - generic [ref=e65]: Automation
+          - link "Visit Live Site" [ref=e67] [cursor=pointer]:
+            - /url: https://caciqueai.web.app
+        - article [ref=e68]:
+          - generic [ref=e70]: Private product with live site
+          - generic [ref=e71]:
+            - heading "CFI Flight Instructor / Voyage" [level=3] [ref=e72]
+            - paragraph [ref=e73]: Flight training management platform built around scheduling, structured debriefs, progress tracking, and billing workflows.
+          - generic [ref=e74]:
+            - generic [ref=e75]: Private Product
+            - generic [ref=e76]: SaaS
+            - generic [ref=e77]: Aviation
+          - link "Visit Live Site" [ref=e79] [cursor=pointer]:
+            - /url: https://voyage-99.web.app
+        - article [ref=e80]:
+          - generic [ref=e82]: Private product with live site
+          - generic [ref=e83]:
+            - heading "Salsa Training / Spicy Dancer" [level=3] [ref=e84]
+            - paragraph [ref=e85]: AI-powered salsa training experience for calling rueda figures and improving practice rhythm.
+          - generic [ref=e86]:
+            - generic [ref=e87]: Private Product
+            - generic [ref=e88]: AI
+            - generic [ref=e89]: Training
+          - link "Visit Live Site" [ref=e91] [cursor=pointer]:
+            - /url: https://salsa-rueda-app.web.app
+      - generic [ref=e92]:
+        - heading "Research Experience" [level=3] [ref=e93]
+        - paragraph [ref=e94]: Peer-reviewed mixed reality work with public PDFs, publication listings, and award evidence.
+      - generic [ref=e95]:
+        - article [ref=e96]:
+          - generic [ref=e98]: Peer-reviewed publication with award evidence
+          - generic [ref=e99]:
+            - heading "Real-Time Magnification in Augmented Reality" [level=3] [ref=e100]
+            - paragraph [ref=e101]: Mixed reality publication on real-time AR magnification with a HoloLens 2 prototype, recognized with the ACM SUI 2021 Best Poster/Demo Award.
+          - generic [ref=e102]:
+            - generic [ref=e103]: ACM SUI 2021
+            - generic [ref=e104]: Best Poster/Demo Award
+            - generic [ref=e105]: UCF
+            - generic [ref=e106]: Mixed Reality
+          - generic [ref=e107]:
+            - link "View PDF" [ref=e108] [cursor=pointer]:
+              - /url: https://sreal.ucf.edu/wp-content/uploads/2021/09/SUI2021_AR_Magnification_DEMO.pdf
+            - link "View Evidence" [ref=e109] [cursor=pointer]:
+              - /url: https://www.acm.org/conferences/best-paper-awards-2021
+        - article [ref=e110]:
+          - generic [ref=e112]: Peer-reviewed publication with public lab record
+          - generic [ref=e113]:
+            - heading "Distant Hand Interaction Framework in Augmented Reality" [level=3] [ref=e114]
+            - paragraph [ref=e115]: Augmented reality framework for distant hand interaction, mapping techniques, and HoloLens-based communication experiments published through IEEE VRW 2022.
+          - generic [ref=e116]:
+            - generic [ref=e117]: IEEE VRW 2022
+            - generic [ref=e118]: UCF
+            - generic [ref=e119]: Augmented Reality
+            - generic [ref=e120]: HoloLens
+          - generic [ref=e121]:
+            - link "View PDF" [ref=e122] [cursor=pointer]:
+              - /url: https://sreal.ucf.edu/wp-content/uploads/2022/05/Distant_Hand_Interaction_Framework_in_Augmented_Reality.pdf
+            - link "View Evidence" [ref=e123] [cursor=pointer]:
+              - /url: https://sreal.ucf.edu/sreal/people/nahal-norouzi/nahal-norouzi/
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - heading "Work Experience" [level=2] [ref=e126]
+        - paragraph [ref=e127]: Production engineering roles across enterprise platforms, AI-enabled analysis workflows, DevOps delivery, and secure mobile applications.
+      - generic [ref=e128]:
+        - article [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - paragraph [ref=e132]: Bank of America
+              - heading "Senior Software Engineer" [level=3] [ref=e133]
+            - generic [ref=e134]:
+              - generic [ref=e135]: Feb 2026 - Present
+              - generic [ref=e136]: Charlotte, North Carolina
+          - paragraph [ref=e137]: Enterprise platform engineering for virtual desktop lifecycle operations and operational reporting.
+          - list [ref=e138]:
+            - listitem [ref=e139]: Built a multi-tier VDI lifecycle platform spanning web UI, application servers, and SQL Server.
+            - listitem [ref=e140]: Implemented modular .NET services with REST and OData endpoints for inventory, lifecycle actions, and reporting.
+            - listitem [ref=e141]: Integrated VMware, Citrix, and Horizon systems with PowerShell automation for lifecycle and maintenance workflows.
+            - listitem [ref=e142]: Improved reporting, resilience, and secure role-based operational workflows for downstream teams.
+        - article [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]:
+              - paragraph [ref=e146]: Wells Fargo Technology
+              - heading "Software Engineer" [level=3] [ref=e147]
+            - generic [ref=e148]:
+              - generic [ref=e149]: Oct 2022 - Dec 2025
+              - generic [ref=e150]: Charlotte, North Carolina
+          - paragraph [ref=e151]: Full-stack engineering, DevOps automation, and AI-assisted triage inside investment portfolio technology.
+          - list [ref=e152]:
+            - listitem [ref=e153]: Built full-stack .NET and Angular applications for investment portfolio systems used by internal teams.
+            - listitem [ref=e154]: Delivered a Generative AI workflow for large Excel vulnerability triage and faster critical issue analysis.
+            - listitem [ref=e155]: Led CI/CD improvements with Jenkins and IBM UrbanCode Deploy to reduce deployment time and improve release flow.
+            - listitem [ref=e156]: Expanded Python and PowerShell automation for release tasks, database operations, and large-scale vulnerability remediation.
+        - article [ref=e157]:
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - paragraph [ref=e160]: ThreatLocker
+              - heading "Mobile (iOS | Android) Developer" [level=3] [ref=e161]
+            - generic [ref=e162]:
+              - generic [ref=e163]: May 2022 - Oct 2022
+              - generic [ref=e164]: Maitland, Florida
+          - paragraph [ref=e165]: Cross-platform mobile development focused on security, performance, and delivery quality.
+          - list [ref=e166]:
+            - listitem [ref=e167]: Built and maintained a cross-platform mobile application used by more than 5,000 customers.
+            - listitem [ref=e168]: Improved app performance and scalability to reduce load times and support a growing user base.
+            - listitem [ref=e169]: Strengthened mobile security with MFA enforcement and device-level encryption practices.
+            - listitem [ref=e170]: Mentored junior developers while driving code review, QA, and delivery quality improvements.
+    - generic [ref=e171]:
+      - generic [ref=e172]:
+        - heading "GitHub Archive" [level=2] [ref=e173]
+        - paragraph [ref=e174]: Latest public work appears first in a compact preview, with the full archive available on demand.
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e177]: 28 public repositories
+          - generic [ref=e179]: "Snapshot: May 5, 2026"
+        - generic [ref=e180]:
+          - generic [ref=e181]: Search repositories
+          - searchbox "Search repositories" [ref=e182]
+      - generic [ref=e183]:
+        - paragraph [ref=e184]: Full archive expanded. All 28 public repositories are visible.
+        - button "Show compact preview" [expanded] [active] [ref=e288] [cursor=pointer]
+      - generic [ref=e186]:
+        - article [ref=e289]:
+          - generic [ref=e290]:
+            - generic [ref=e291]:
+              - heading "Fastbreak Interview Dashboard" [level=3] [ref=e292]
+              - paragraph [ref=e293]: Public GitHub repository
+            - generic [ref=e294]:
+              - generic [ref=e295]: TypeScript
+              - generic [ref=e296]: Updated Jan 17, 2026
+          - paragraph [ref=e297]: TypeScript sports-event dashboard prototype built for the Fastbreak code challenge.
+          - generic [ref=e298]:
+            - generic [ref=e299]:
+              - generic [ref=e300]: TypeScript
+              - generic [ref=e301]: Dashboard
+              - generic [ref=e302]: Live Demo
+            - generic [ref=e303]:
+              - link "View GitHub" [ref=e304] [cursor=pointer]:
+                - /url: https://github.com/jesusugarte10/Sports-Event-Dashboard-Fastbreak-Interview
+              - link "Live Site" [ref=e305] [cursor=pointer]:
+                - /url: https://fastbreakinterview.vercel.app
+        - article [ref=e306]:
+          - generic [ref=e307]:
+            - generic [ref=e308]:
+              - heading "Solar Eclipse 2024 Data Analysis" [level=3] [ref=e309]
+              - paragraph [ref=e310]: Public GitHub repository
+            - generic [ref=e311]:
+              - generic [ref=e312]: Python
+              - generic [ref=e313]: Updated Jan 14, 2026
+          - paragraph [ref=e314]: Python analysis project centered on solar eclipse observations, experiments, and data exploration.
+          - generic [ref=e315]:
+            - generic [ref=e316]:
+              - generic [ref=e317]: Python
+              - generic [ref=e318]: Data Analysis
+              - generic [ref=e319]: Astronomy
+            - link "View GitHub" [ref=e321] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Solar-Eclipse-2024-Data-Analysis
+        - article [ref=e322]:
+          - generic [ref=e323]:
+            - generic [ref=e324]:
+              - heading "Computer Vision" [level=3] [ref=e325]
+              - paragraph [ref=e326]: Public GitHub repository
+            - generic [ref=e327]:
+              - generic [ref=e328]: C++
+              - generic [ref=e329]: Updated Jan 3, 2026
+          - paragraph [ref=e330]: Computer vision repository covering experiments, assignments, and image-processing exploration.
+          - generic [ref=e331]:
+            - generic [ref=e332]:
+              - generic [ref=e333]: C++
+              - generic [ref=e334]: Computer Vision
+            - link "View GitHub" [ref=e336] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Computer-Vision
+        - article [ref=e337]:
+          - generic [ref=e338]:
+            - generic [ref=e339]:
+              - heading "Crystal Vault" [level=3] [ref=e340]
+              - paragraph [ref=e341]: Public GitHub repository
+            - generic [ref=e343]: Updated Jan 2, 2026
+          - paragraph [ref=e344]: Research-driven public project documenting surveillance infrastructure through open APIs and investigative tooling.
+          - generic [ref=e345]:
+            - generic [ref=e346]:
+              - generic [ref=e347]: Research
+              - generic [ref=e348]: Open Data
+              - generic [ref=e349]: Live Demo
+            - generic [ref=e350]:
+              - link "View GitHub" [ref=e351] [cursor=pointer]:
+                - /url: https://github.com/jesusugarte10/crystal-vault
+              - link "Live Site" [ref=e352] [cursor=pointer]:
+                - /url: https://ringmast4r.github.io/crystal-vault/
+        - article [ref=e353]:
+          - generic [ref=e354]:
+            - generic [ref=e355]:
+              - heading "Cactus Portfolio" [level=3] [ref=e356]
+              - paragraph [ref=e357]: Public GitHub repository
+            - generic [ref=e358]:
+              - generic [ref=e359]: CSS
+              - generic [ref=e360]: Updated Dec 29, 2025
+          - paragraph [ref=e361]: Static portfolio site for presenting product work, engineering focus, and project archive.
+          - generic [ref=e362]:
+            - generic [ref=e363]:
+              - generic [ref=e364]: CSS
+              - generic [ref=e365]: Portfolio
+              - generic [ref=e366]: Live Demo
+            - generic [ref=e367]:
+              - link "View GitHub" [ref=e368] [cursor=pointer]:
+                - /url: https://github.com/jesusugarte10/Cactus
+              - link "Live Site" [ref=e369] [cursor=pointer]:
+                - /url: https://jesusugarte10.github.io/Cactus/
+        - article [ref=e370]:
+          - generic [ref=e371]:
+            - generic [ref=e372]:
+              - heading "UCF Data Structures" [level=3] [ref=e373]
+              - paragraph [ref=e374]: Public GitHub repository
+            - generic [ref=e375]:
+              - generic [ref=e376]: Java
+              - generic [ref=e377]: Updated Dec 27, 2025
+          - paragraph [ref=e378]: Java coursework repository focused on core data structures and implementation practice.
+          - generic [ref=e379]:
+            - generic [ref=e380]:
+              - generic [ref=e381]: Java
+              - generic [ref=e382]: Coursework
+            - link "View GitHub" [ref=e384] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/UCF-DATA-Structures
+        - article [ref=e385]:
+          - generic [ref=e386]:
+            - generic [ref=e387]:
+              - heading "System Software" [level=3] [ref=e388]
+              - paragraph [ref=e389]: Public GitHub repository
+            - generic [ref=e390]:
+              - generic [ref=e391]: C
+              - generic [ref=e392]: Updated Dec 27, 2025
+          - paragraph [ref=e393]: Repository for System Software Class
+          - generic [ref=e394]:
+            - generic [ref=e396]: C
+            - link "View GitHub" [ref=e398] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/System_Software
+        - article [ref=e399]:
+          - generic [ref=e400]:
+            - generic [ref=e401]:
+              - heading "Residence Life Housekeeping App" [level=3] [ref=e402]
+              - paragraph [ref=e403]: Public GitHub repository
+            - generic [ref=e404]:
+              - generic [ref=e405]: JavaScript
+              - generic [ref=e406]: Updated Dec 27, 2025
+          - paragraph [ref=e407]: JavaScript application concept for residence life and housekeeping workflow management.
+          - generic [ref=e408]:
+            - generic [ref=e409]:
+              - generic [ref=e410]: JavaScript
+              - generic [ref=e411]: Operations
+            - link "View GitHub" [ref=e413] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Residence-Life-HouseKeeping-App
+        - article [ref=e414]:
+          - generic [ref=e415]:
+            - generic [ref=e416]:
+              - heading "Salsa Tempo Terminal Version" [level=3] [ref=e417]
+              - paragraph [ref=e418]: Public GitHub repository
+            - generic [ref=e419]:
+              - generic [ref=e420]: Python
+              - generic [ref=e421]: Updated Dec 27, 2025
+          - paragraph [ref=e422]: Python-based rhythm and timing tool for salsa training and tempo-focused practice workflows.
+          - generic [ref=e423]:
+            - generic [ref=e424]:
+              - generic [ref=e425]: Python
+              - generic [ref=e426]: Music
+              - generic [ref=e427]: Training
+            - link "View GitHub" [ref=e429] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Salsa_Tempo_Terminal_Version
+        - article [ref=e430]:
+          - generic [ref=e431]:
+            - generic [ref=e432]:
+              - heading "Computer Logic" [level=3] [ref=e433]
+              - paragraph [ref=e434]: Public GitHub repository
+            - generic [ref=e435]:
+              - generic [ref=e436]: C
+              - generic [ref=e437]: Updated Dec 27, 2025
+          - paragraph [ref=e438]: Final project work from computer organization and logic coursework.
+          - generic [ref=e439]:
+            - generic [ref=e440]:
+              - generic [ref=e441]: C
+              - generic [ref=e442]: Systems
+              - generic [ref=e443]: Coursework
+            - link "View GitHub" [ref=e445] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Computer-Logic
+        - article [ref=e446]:
+          - generic [ref=e447]:
+            - generic [ref=e448]:
+              - heading "Java Data Structures" [level=3] [ref=e449]
+              - paragraph [ref=e450]: Public GitHub repository
+            - generic [ref=e451]:
+              - generic [ref=e452]: Java
+              - generic [ref=e453]: Updated Dec 27, 2025
+          - paragraph [ref=e454]: Java repository focused on foundational data structures and class exercises.
+          - generic [ref=e455]:
+            - generic [ref=e456]:
+              - generic [ref=e457]: Java
+              - generic [ref=e458]: Coursework
+            - link "View GitHub" [ref=e460] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/JAVA-DATA-STRUCTURES
+        - article [ref=e461]:
+          - generic [ref=e462]:
+            - generic [ref=e463]:
+              - heading "Azure GeoLocation API" [level=3] [ref=e464]
+              - paragraph [ref=e465]: Public GitHub repository
+            - generic [ref=e466]:
+              - generic [ref=e467]: Python
+              - generic [ref=e468]: Updated Dec 27, 2025
+          - paragraph [ref=e469]: Python exploration of geolocation services and Azure-backed API experimentation.
+          - generic [ref=e470]:
+            - generic [ref=e471]:
+              - generic [ref=e472]: Python
+              - generic [ref=e473]: API
+              - generic [ref=e474]: Azure
+            - link "View GitHub" [ref=e476] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Azure-GeoLocation-API
+        - article [ref=e477]:
+          - generic [ref=e478]:
+            - generic [ref=e479]:
+              - heading "GitHub Profile Repository" [level=3] [ref=e480]
+              - paragraph [ref=e481]: Public GitHub repository
+            - generic [ref=e483]: Updated Dec 23, 2025
+          - paragraph [ref=e484]: Profile repository powering the public GitHub presence and account presentation.
+          - generic [ref=e485]:
+            - generic [ref=e486]:
+              - generic [ref=e487]: Profile
+              - generic [ref=e488]: GitHub
+              - generic [ref=e489]: Live Demo
+            - generic [ref=e490]:
+              - link "View GitHub" [ref=e491] [cursor=pointer]:
+                - /url: https://github.com/jesusugarte10/jesusugarte10
+              - link "Live Site" [ref=e492] [cursor=pointer]:
+                - /url: https://github.com/jesusugarte10
+        - article [ref=e493]:
+          - generic [ref=e494]:
+            - generic [ref=e495]:
+              - heading "Machine Learning" [level=3] [ref=e496]
+              - paragraph [ref=e497]: Public GitHub repository
+            - generic [ref=e498]:
+              - generic [ref=e499]: Jupyter Notebook
+              - generic [ref=e500]: Updated Sep 25, 2025
+          - paragraph [ref=e501]: Machine learning coursework and experiments from UCF, covering models, notebooks, and practical implementations.
+          - generic [ref=e502]:
+            - generic [ref=e503]:
+              - generic [ref=e504]: Jupyter Notebook
+              - generic [ref=e505]: Machine Learning
+              - generic [ref=e506]: Notebook
+            - link "View GitHub" [ref=e508] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Machine_Learning
+        - article [ref=e509]:
+          - generic [ref=e510]:
+            - generic [ref=e511]:
+              - heading "Satellite TCP Communication" [level=3] [ref=e512]
+              - paragraph [ref=e513]: Public GitHub repository
+            - generic [ref=e514]:
+              - generic [ref=e515]: Python
+              - generic [ref=e516]: Updated Aug 1, 2025
+          - paragraph [ref=e517]: Python project focused on satellite dump data analysis and TCP communication concepts.
+          - generic [ref=e518]:
+            - generic [ref=e519]:
+              - generic [ref=e520]: Python
+              - generic [ref=e521]: Networking
+              - generic [ref=e522]: Data
+            - link "View GitHub" [ref=e524] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Satelite_TCP_Communication
+        - article [ref=e525]:
+          - generic [ref=e526]:
+            - generic [ref=e527]:
+              - heading "Chat Server" [level=3] [ref=e528]
+              - paragraph [ref=e529]: Public GitHub repository
+            - generic [ref=e530]:
+              - generic [ref=e531]: Python
+              - generic [ref=e532]: Updated Aug 3, 2022
+          - paragraph [ref=e533]: Python chat server project focused on socket-based communication and networking fundamentals.
+          - generic [ref=e534]:
+            - generic [ref=e535]:
+              - generic [ref=e536]: Python
+              - generic [ref=e537]: Networking
+            - link "View GitHub" [ref=e539] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Chat_Server
+        - article [ref=e540]:
+          - generic [ref=e541]:
+            - generic [ref=e542]:
+              - heading "LeetCode Blind Curated 75" [level=3] [ref=e543]
+              - paragraph [ref=e544]: Public GitHub repository
+            - generic [ref=e546]: Updated May 27, 2022
+          - paragraph [ref=e547]: Problem-solving archive for the Blind 75 interview set and solution recall practice.
+          - generic [ref=e548]:
+            - generic [ref=e549]:
+              - generic [ref=e550]: Interview Prep
+              - generic [ref=e551]: Algorithms
+              - generic [ref=e552]: Live Demo
+            - generic [ref=e553]:
+              - link "View GitHub" [ref=e554] [cursor=pointer]:
+                - /url: https://github.com/jesusugarte10/LeetCode-Blind-Curated-75
+              - link "Live Site" [ref=e555] [cursor=pointer]:
+                - /url: https://leetcode.com
+        - article [ref=e556]:
+          - generic [ref=e557]:
+            - generic [ref=e558]:
+              - heading "GitHub Graduation 2022" [level=3] [ref=e559]
+              - paragraph [ref=e560]: Public GitHub repository
+            - generic [ref=e561]:
+              - generic [ref=e562]: JavaScript
+              - generic [ref=e563]: Updated May 3, 2022
+          - paragraph [ref=e564]: Small public project connected to the GitHub Graduation yearbook experience.
+          - generic [ref=e565]:
+            - generic [ref=e566]:
+              - generic [ref=e567]: JavaScript
+              - generic [ref=e568]: Community
+            - link "View GitHub" [ref=e570] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/GitHubGraduation-2022
+        - article [ref=e571]:
+          - generic [ref=e572]:
+            - generic [ref=e573]:
+              - heading "HoloLens Hand Extension" [level=3] [ref=e574]
+              - paragraph [ref=e575]: Public GitHub repository
+            - generic [ref=e576]:
+              - generic [ref=e577]: C#
+              - generic [ref=e578]: Updated Jan 31, 2022
+          - paragraph [ref=e579]: C# mixed reality prototype work focused on hand interaction extensions for HoloLens experiences.
+          - generic [ref=e580]:
+            - generic [ref=e581]:
+              - generic [ref=e582]: C#
+              - generic [ref=e583]: Mixed Reality
+            - link "View GitHub" [ref=e585] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Hololens_Hand_Extension
+        - article [ref=e586]:
+          - generic [ref=e587]:
+            - generic [ref=e588]:
+              - heading "React Native Leaderboard" [level=3] [ref=e589]
+              - paragraph [ref=e590]: Public GitHub repository
+            - generic [ref=e591]:
+              - generic [ref=e592]: JavaScript
+              - generic [ref=e593]: Updated Dec 8, 2021
+          - paragraph [ref=e594]: React Native leaderboard application built as part of a larger MERN-oriented student project.
+          - generic [ref=e595]:
+            - generic [ref=e596]:
+              - generic [ref=e597]: JavaScript
+              - generic [ref=e598]: React Native
+              - generic [ref=e599]: Mobile
+            - link "View GitHub" [ref=e601] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/React_Native_Leaderboard
+        - article [ref=e602]:
+          - generic [ref=e603]:
+            - generic [ref=e604]:
+              - heading "Mixed Reality Toolkit Unity" [level=3] [ref=e605]
+              - paragraph [ref=e606]: Public GitHub repository
+            - generic [ref=e608]: Updated Sep 23, 2021
+          - paragraph [ref=e609]: Unity-based mixed reality toolkit repository used for MRTK experimentation and development reference.
+          - generic [ref=e610]:
+            - generic [ref=e611]:
+              - generic [ref=e612]: Unity
+              - generic [ref=e613]: Mixed Reality
+              - generic [ref=e614]: Live Demo
+            - generic [ref=e615]:
+              - link "View GitHub" [ref=e616] [cursor=pointer]:
+                - /url: https://github.com/jesusugarte10/MixedRealityToolkit-Unity
+              - link "Live Site" [ref=e617] [cursor=pointer]:
+                - /url: https://aka.ms/mrtkdocs
+        - article [ref=e618]:
+          - generic [ref=e619]:
+            - generic [ref=e620]:
+              - heading "Contact Master All Parts" [level=3] [ref=e621]
+              - paragraph [ref=e622]: Public GitHub repository
+            - generic [ref=e623]:
+              - generic [ref=e624]: JavaScript
+              - generic [ref=e625]: Updated Sep 20, 2021
+          - paragraph [ref=e626]: Master repository bringing together approved front-end and back-end work for the Contact Master project.
+          - generic [ref=e627]:
+            - generic [ref=e628]:
+              - generic [ref=e629]: JavaScript
+              - generic [ref=e630]: Full Stack
+            - link "View GitHub" [ref=e632] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Contact-Master-AllParts
+        - article [ref=e633]:
+          - generic [ref=e634]:
+            - generic [ref=e635]:
+              - heading "Contact Master Front End" [level=3] [ref=e636]
+              - paragraph [ref=e637]: Public GitHub repository
+            - generic [ref=e638]:
+              - generic [ref=e639]: JavaScript
+              - generic [ref=e640]: Updated Sep 9, 2021
+          - paragraph [ref=e641]: Front-end implementation for the Contact Master application.
+          - generic [ref=e642]:
+            - generic [ref=e643]:
+              - generic [ref=e644]: JavaScript
+              - generic [ref=e645]: Frontend
+            - link "View GitHub" [ref=e647] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/contact-master-front-end
+        - article [ref=e648]:
+          - generic [ref=e649]:
+            - generic [ref=e650]:
+              - heading "Auto Annotate" [level=3] [ref=e651]
+              - paragraph [ref=e652]: Public GitHub repository
+            - generic [ref=e654]: Updated Aug 17, 2021
+          - paragraph [ref=e655]: Automation tool for labeling and segmenting images across large directories with COCO and custom label support.
+          - generic [ref=e656]:
+            - generic [ref=e657]:
+              - generic [ref=e658]: Automation
+              - generic [ref=e659]: Computer Vision
+            - link "View GitHub" [ref=e661] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Auto-Annotate
+        - article [ref=e662]:
+          - generic [ref=e663]:
+            - generic [ref=e664]:
+              - heading "UCF Foundation Exam App" [level=3] [ref=e665]
+              - paragraph [ref=e666]: Public GitHub repository
+            - generic [ref=e668]: Updated Aug 13, 2021
+          - paragraph [ref=e669]: Application built to help UCF students prepare for the computer science foundation exam.
+          - generic [ref=e670]:
+            - generic [ref=e671]:
+              - generic [ref=e672]: Education
+              - generic [ref=e673]: Live Demo
+            - generic [ref=e674]:
+              - link "View GitHub" [ref=e675] [cursor=pointer]:
+                - /url: https://github.com/jesusugarte10/ucf-fe
+              - link "Live Site" [ref=e676] [cursor=pointer]:
+                - /url: https://ucffe.vijaystroup.com
+        - article [ref=e677]:
+          - generic [ref=e678]:
+            - generic [ref=e679]:
+              - heading "Artificial Intelligence" [level=3] [ref=e680]
+              - paragraph [ref=e681]: Public GitHub repository
+            - generic [ref=e682]:
+              - generic [ref=e683]: Jupyter Notebook
+              - generic [ref=e684]: Updated Jul 18, 2021
+          - paragraph [ref=e685]: Repository of artificial intelligence coursework, notes, and supporting code.
+          - generic [ref=e686]:
+            - generic [ref=e687]:
+              - generic [ref=e688]: Jupyter Notebook
+              - generic [ref=e689]: AI
+              - generic [ref=e690]: Notebook
+            - link "View GitHub" [ref=e692] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Artificial_Intelligence
+        - article [ref=e693]:
+          - generic [ref=e694]:
+            - generic [ref=e695]:
+              - heading "UCF CS1" [level=3] [ref=e696]
+              - paragraph [ref=e697]: Public GitHub repository
+            - generic [ref=e698]:
+              - generic [ref=e699]: C
+              - generic [ref=e700]: Updated Dec 7, 2020
+          - paragraph [ref=e701]: Early computer science coursework repository focused on C foundations and class exercises.
+          - generic [ref=e702]:
+            - generic [ref=e703]:
+              - generic [ref=e704]: C
+              - generic [ref=e705]: Coursework
+            - link "View GitHub" [ref=e707] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/UCF_CS1
+        - article [ref=e708]:
+          - generic [ref=e709]:
+            - generic [ref=e710]:
+              - heading "Harvard CS50" [level=3] [ref=e711]
+              - paragraph [ref=e712]: Public GitHub repository
+            - generic [ref=e713]:
+              - generic [ref=e714]: C
+              - generic [ref=e715]: Updated Sep 23, 2020
+          - paragraph [ref=e716]: Code solutions and exercises completed for Harvard's CS50 coursework.
+          - generic [ref=e717]:
+            - generic [ref=e718]:
+              - generic [ref=e719]: C
+              - generic [ref=e720]: Coursework
+            - link "View GitHub" [ref=e722] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Harvard_CS50
+    - generic [ref=e256]:
+      - generic "Rocket launch footage" [ref=e259]
+      - generic [ref=e260]:
+        - heading "My Journey" [level=2] [ref=e261]
+        - paragraph [ref=e262]: I am a full stack software engineer with a B.S. in Computer Science from the University of Central Florida. My work spans AI integration, DevOps, mobile development, computer vision, and mixed reality.
+        - paragraph [ref=e263]: "I enjoy projects that connect product thinking with real systems work: shipping, iterating, learning fast, and making technical ideas useful in production."
+        - paragraph [ref=e264]: "Space exploration, astronomy, and hands-on experimentation continue to shape how I think about engineering: ambitious, practical, and grounded in real-world constraints."
+    - generic [ref=e266]:
+      - generic [ref=e267]:
+        - heading "Reaching for the Stars" [level=2] [ref=e268]
+        - paragraph [ref=e269]: Graduating with a B.S. in Computer Science remains one of the milestones that sharpened both my discipline and range. It represents the foundation behind the product work, systems thinking, and engineering curiosity that continue to guide me.
+        - paragraph [ref=e270]: Gracias Mama por apoyarme siempre, creer en mi, and helping make this moment possible.
+      - figure [ref=e271]:
+        - img "Jesus Ugarte at graduation" [ref=e273]
+    - generic [ref=e275]:
+      - heading "Get In Touch" [level=2] [ref=e276]
+      - paragraph [ref=e277]: I am open to product engineering roles, consulting conversations, and ambitious builds where AI, software, and execution quality matter.
+      - generic [ref=e278]:
+        - link "Email Me" [ref=e279] [cursor=pointer]:
+          - /url: mailto:Jesusugarte10@gmail.com
+        - link "View Resume" [ref=e280] [cursor=pointer]:
+          - /url: assets/documents/RESUME.pdf
+      - generic [ref=e281]:
+        - link "Jesusugarte10@gmail.com" [ref=e282] [cursor=pointer]:
+          - /url: mailto:Jesusugarte10@gmail.com
+        - link "linkedin.com/in/jesusugarte" [ref=e283] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/jesusugarte/
+        - link "github.com/jesusugarte10" [ref=e284] [cursor=pointer]:
+          - /url: https://github.com/jesusugarte10
+        - link "kaggle.com/jesusugarte" [ref=e285] [cursor=pointer]:
+          - /url: https://www.kaggle.com/jesusugarte
+  - contentinfo [ref=e286]:
+    - paragraph [ref=e287]: © 2026 Jesus Ugarte. Public project snapshot updated May 5, 2026.

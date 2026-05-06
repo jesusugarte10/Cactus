@@ -1,0 +1,289 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - link "Jesus Ugarte" [ref=e3] [cursor=pointer]:
+      - /url: "#home"
+    - navigation "Primary navigation" [ref=e4]:
+      - link "Home" [ref=e5] [cursor=pointer]:
+        - /url: "#home"
+      - link "Projects" [ref=e6] [cursor=pointer]:
+        - /url: "#featured-products"
+      - link "Experience" [active] [ref=e7] [cursor=pointer]:
+        - /url: "#experience"
+      - link "Journey" [ref=e8] [cursor=pointer]:
+        - /url: "#journey"
+      - link "Graduation" [ref=e9] [cursor=pointer]:
+        - /url: "#graduation"
+      - link "Contact" [ref=e10] [cursor=pointer]:
+        - /url: "#contact"
+      - link "Resume" [ref=e11] [cursor=pointer]:
+        - /url: assets/documents/RESUME.pdf
+  - main [ref=e12]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - heading "Jesus Ugarte" [level=1] [ref=e16]
+        - paragraph [ref=e17]:
+          - text: I build as a
+          - generic [ref=e18]: Gen AI Specialist
+        - generic [ref=e19]:
+          - paragraph [ref=e20]: Full Stack Software Engineer | Gen AI Integration | DevOps | Mobile Development
+          - paragraph [ref=e21]: Computer Vision | Mixed Reality | Space Enthusiast
+        - paragraph [ref=e22]: Production-minded engineer focused on shipping useful software across AI-enabled products, full-stack systems, mixed reality prototypes, and mobile experiences.
+        - generic [ref=e23]:
+          - link "View Projects" [ref=e24] [cursor=pointer]:
+            - /url: "#featured-products"
+          - link "Open Resume" [ref=e25] [cursor=pointer]:
+            - /url: assets/documents/RESUME.pdf
+        - list "Social links" [ref=e26]:
+          - listitem [ref=e27]:
+            - link "GitHub" [ref=e28] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10
+          - listitem [ref=e29]:
+            - link "LinkedIn" [ref=e30] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/jesusugarte/
+          - listitem [ref=e31]:
+            - link "Kaggle" [ref=e32] [cursor=pointer]:
+              - /url: https://www.kaggle.com/jesusugarte
+      - generic [ref=e34]:
+        - generic "Mixed reality demo footage" [ref=e35]
+        - generic [ref=e36]:
+          - generic [ref=e37]: Mixed reality prototype footage
+          - generic [ref=e38]: Real project video
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - heading "Featured Products" [level=2] [ref=e41]
+        - paragraph [ref=e42]: A curated look at private product work and live platforms, followed by research proof from mixed reality publications and public evidence.
+      - generic [ref=e43]:
+        - article [ref=e44]:
+          - generic [ref=e46]: Private product with live site
+          - generic [ref=e47]:
+            - heading "DJ Request" [level=3] [ref=e48]
+            - paragraph [ref=e49]: QR-based song requests, optional paid requests, and a moderated photo wall built for DJs, karaoke, and live events.
+          - generic [ref=e50]:
+            - generic [ref=e51]: Private Product
+            - generic [ref=e52]: Live Platform
+            - generic [ref=e53]: Events
+          - link "Visit Live Site" [ref=e55] [cursor=pointer]:
+            - /url: https://www.djrequest.net
+        - article [ref=e56]:
+          - generic [ref=e58]: Private product with live site
+          - generic [ref=e59]:
+            - heading "CaciqueAI" [level=3] [ref=e60]
+            - paragraph [ref=e61]: Professional WhatsApp automation dashboard for workshops, products, and customer support workflows.
+          - generic [ref=e62]:
+            - generic [ref=e63]: Private Product
+            - generic [ref=e64]: AI
+            - generic [ref=e65]: Automation
+          - link "Visit Live Site" [ref=e67] [cursor=pointer]:
+            - /url: https://caciqueai.web.app
+        - article [ref=e68]:
+          - generic [ref=e70]: Private product with live site
+          - generic [ref=e71]:
+            - heading "CFI Flight Instructor / Voyage" [level=3] [ref=e72]
+            - paragraph [ref=e73]: Flight training management platform built around scheduling, structured debriefs, progress tracking, and billing workflows.
+          - generic [ref=e74]:
+            - generic [ref=e75]: Private Product
+            - generic [ref=e76]: SaaS
+            - generic [ref=e77]: Aviation
+          - link "Visit Live Site" [ref=e79] [cursor=pointer]:
+            - /url: https://voyage-99.web.app
+        - article [ref=e80]:
+          - generic [ref=e82]: Private product with live site
+          - generic [ref=e83]:
+            - heading "Salsa Training / Spicy Dancer" [level=3] [ref=e84]
+            - paragraph [ref=e85]: AI-powered salsa training experience for calling rueda figures and improving practice rhythm.
+          - generic [ref=e86]:
+            - generic [ref=e87]: Private Product
+            - generic [ref=e88]: AI
+            - generic [ref=e89]: Training
+          - link "Visit Live Site" [ref=e91] [cursor=pointer]:
+            - /url: https://salsa-rueda-app.web.app
+      - generic [ref=e92]:
+        - heading "Research Experience" [level=3] [ref=e93]
+        - paragraph [ref=e94]: Peer-reviewed mixed reality work with public PDFs, publication listings, and award evidence.
+      - generic [ref=e95]:
+        - article [ref=e96]:
+          - generic [ref=e98]: Peer-reviewed publication with award evidence
+          - generic [ref=e99]:
+            - heading "Real-Time Magnification in Augmented Reality" [level=3] [ref=e100]
+            - paragraph [ref=e101]: Mixed reality publication on real-time AR magnification with a HoloLens 2 prototype, recognized with the ACM SUI 2021 Best Poster/Demo Award.
+          - generic [ref=e102]:
+            - generic [ref=e103]: ACM SUI 2021
+            - generic [ref=e104]: Best Poster/Demo Award
+            - generic [ref=e105]: UCF
+            - generic [ref=e106]: Mixed Reality
+          - generic [ref=e107]:
+            - link "View PDF" [ref=e108] [cursor=pointer]:
+              - /url: https://sreal.ucf.edu/wp-content/uploads/2021/09/SUI2021_AR_Magnification_DEMO.pdf
+            - link "View Evidence" [ref=e109] [cursor=pointer]:
+              - /url: https://www.acm.org/conferences/best-paper-awards-2021
+        - article [ref=e110]:
+          - generic [ref=e112]: Peer-reviewed publication with public lab record
+          - generic [ref=e113]:
+            - heading "Distant Hand Interaction Framework in Augmented Reality" [level=3] [ref=e114]
+            - paragraph [ref=e115]: Augmented reality framework for distant hand interaction, mapping techniques, and HoloLens-based communication experiments published through IEEE VRW 2022.
+          - generic [ref=e116]:
+            - generic [ref=e117]: IEEE VRW 2022
+            - generic [ref=e118]: UCF
+            - generic [ref=e119]: Augmented Reality
+            - generic [ref=e120]: HoloLens
+          - generic [ref=e121]:
+            - link "View PDF" [ref=e122] [cursor=pointer]:
+              - /url: https://sreal.ucf.edu/wp-content/uploads/2022/05/Distant_Hand_Interaction_Framework_in_Augmented_Reality.pdf
+            - link "View Evidence" [ref=e123] [cursor=pointer]:
+              - /url: https://sreal.ucf.edu/sreal/people/nahal-norouzi/nahal-norouzi/
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - heading "Work Experience" [level=2] [ref=e126]
+        - paragraph [ref=e127]: Production engineering roles across enterprise platforms, AI-enabled analysis workflows, DevOps delivery, and secure mobile applications.
+      - generic [ref=e128]:
+        - article [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - paragraph [ref=e132]: Bank of America
+              - heading "Senior Software Engineer" [level=3] [ref=e133]
+            - generic [ref=e134]:
+              - generic [ref=e135]: Feb 2026 - Present
+              - generic [ref=e136]: Charlotte, North Carolina
+          - paragraph [ref=e137]: Enterprise platform engineering for virtual desktop lifecycle operations and operational reporting.
+          - list [ref=e138]:
+            - listitem [ref=e139]: Built a multi-tier VDI lifecycle platform spanning web UI, application servers, and SQL Server.
+            - listitem [ref=e140]: Implemented modular .NET services with REST and OData endpoints for inventory, lifecycle actions, and reporting.
+            - listitem [ref=e141]: Integrated VMware, Citrix, and Horizon systems with PowerShell automation for lifecycle and maintenance workflows.
+            - listitem [ref=e142]: Improved reporting, resilience, and secure role-based operational workflows for downstream teams.
+        - article [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]:
+              - paragraph [ref=e146]: Wells Fargo Technology
+              - heading "Software Engineer" [level=3] [ref=e147]
+            - generic [ref=e148]:
+              - generic [ref=e149]: Oct 2022 - Dec 2025
+              - generic [ref=e150]: Charlotte, North Carolina
+          - paragraph [ref=e151]: Full-stack engineering, DevOps automation, and AI-assisted triage inside investment portfolio technology.
+          - list [ref=e152]:
+            - listitem [ref=e153]: Built full-stack .NET and Angular applications for investment portfolio systems used by internal teams.
+            - listitem [ref=e154]: Delivered a Generative AI workflow for large Excel vulnerability triage and faster critical issue analysis.
+            - listitem [ref=e155]: Led CI/CD improvements with Jenkins and IBM UrbanCode Deploy to reduce deployment time and improve release flow.
+            - listitem [ref=e156]: Expanded Python and PowerShell automation for release tasks, database operations, and large-scale vulnerability remediation.
+        - article [ref=e157]:
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - paragraph [ref=e160]: ThreatLocker
+              - heading "Mobile (iOS | Android) Developer" [level=3] [ref=e161]
+            - generic [ref=e162]:
+              - generic [ref=e163]: May 2022 - Oct 2022
+              - generic [ref=e164]: Maitland, Florida
+          - paragraph [ref=e165]: Cross-platform mobile development focused on security, performance, and delivery quality.
+          - list [ref=e166]:
+            - listitem [ref=e167]: Built and maintained a cross-platform mobile application used by more than 5,000 customers.
+            - listitem [ref=e168]: Improved app performance and scalability to reduce load times and support a growing user base.
+            - listitem [ref=e169]: Strengthened mobile security with MFA enforcement and device-level encryption practices.
+            - listitem [ref=e170]: Mentored junior developers while driving code review, QA, and delivery quality improvements.
+    - generic [ref=e171]:
+      - generic [ref=e172]:
+        - heading "GitHub Archive" [level=2] [ref=e173]
+        - paragraph [ref=e174]: Latest public work appears first in a compact preview, with the full archive available on demand.
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e177]: Top 6 of 28 public repositories
+          - generic [ref=e179]: "Snapshot: May 5, 2026"
+        - generic [ref=e180]:
+          - generic [ref=e181]: Search repositories
+          - searchbox "Search repositories" [ref=e182]
+      - generic [ref=e183]:
+        - paragraph [ref=e184]: Showing the latest 6 repositories first in a condensed layout.
+        - button "Expand full archive" [ref=e185] [cursor=pointer]
+      - generic [ref=e186]:
+        - article [ref=e187]:
+          - generic [ref=e188]:
+            - heading "Fastbreak Interview Dashboard" [level=3] [ref=e190]
+            - generic [ref=e191]:
+              - generic [ref=e192]: TypeScript
+              - generic [ref=e193]: Updated Jan 17, 2026
+          - paragraph [ref=e194]: TypeScript sports-event dashboard prototype built for the Fastbreak code challenge.
+          - generic [ref=e196]:
+            - link "View GitHub" [ref=e197] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Sports-Event-Dashboard-Fastbreak-Interview
+            - link "Live Site" [ref=e198] [cursor=pointer]:
+              - /url: https://fastbreakinterview.vercel.app
+        - article [ref=e199]:
+          - generic [ref=e200]:
+            - heading "Solar Eclipse 2024 Data Analysis" [level=3] [ref=e202]
+            - generic [ref=e203]:
+              - generic [ref=e204]: Python
+              - generic [ref=e205]: Updated Jan 14, 2026
+          - paragraph [ref=e206]: Python analysis project centered on solar eclipse observations, experiments, and data exploration.
+          - link "View GitHub" [ref=e209] [cursor=pointer]:
+            - /url: https://github.com/jesusugarte10/Solar-Eclipse-2024-Data-Analysis
+        - article [ref=e210]:
+          - generic [ref=e211]:
+            - heading "Computer Vision" [level=3] [ref=e213]
+            - generic [ref=e214]:
+              - generic [ref=e215]: C++
+              - generic [ref=e216]: Updated Jan 3, 2026
+          - paragraph [ref=e217]: Computer vision repository covering experiments, assignments, and image-processing exploration.
+          - link "View GitHub" [ref=e220] [cursor=pointer]:
+            - /url: https://github.com/jesusugarte10/Computer-Vision
+        - article [ref=e221]:
+          - generic [ref=e222]:
+            - heading "Crystal Vault" [level=3] [ref=e224]
+            - generic [ref=e226]: Updated Jan 2, 2026
+          - paragraph [ref=e227]: Research-driven public project documenting surveillance infrastructure through open APIs and investigative tooling.
+          - generic [ref=e229]:
+            - link "View GitHub" [ref=e230] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/crystal-vault
+            - link "Live Site" [ref=e231] [cursor=pointer]:
+              - /url: https://ringmast4r.github.io/crystal-vault/
+        - article [ref=e232]:
+          - generic [ref=e233]:
+            - heading "Cactus Portfolio" [level=3] [ref=e235]
+            - generic [ref=e236]:
+              - generic [ref=e237]: CSS
+              - generic [ref=e238]: Updated Dec 29, 2025
+          - paragraph [ref=e239]: Static portfolio site for presenting product work, engineering focus, and project archive.
+          - generic [ref=e241]:
+            - link "View GitHub" [ref=e242] [cursor=pointer]:
+              - /url: https://github.com/jesusugarte10/Cactus
+            - link "Live Site" [ref=e243] [cursor=pointer]:
+              - /url: https://jesusugarte10.github.io/Cactus/
+        - article [ref=e244]:
+          - generic [ref=e245]:
+            - heading "UCF Data Structures" [level=3] [ref=e247]
+            - generic [ref=e248]:
+              - generic [ref=e249]: Java
+              - generic [ref=e250]: Updated Dec 27, 2025
+          - paragraph [ref=e251]: Java coursework repository focused on core data structures and implementation practice.
+          - link "View GitHub" [ref=e254] [cursor=pointer]:
+            - /url: https://github.com/jesusugarte10/UCF-DATA-Structures
+    - generic [ref=e256]:
+      - generic "Rocket launch footage" [ref=e259]
+      - generic [ref=e260]:
+        - heading "My Journey" [level=2] [ref=e261]
+        - paragraph [ref=e262]: I am a full stack software engineer with a B.S. in Computer Science from the University of Central Florida. My work spans AI integration, DevOps, mobile development, computer vision, and mixed reality.
+        - paragraph [ref=e263]: "I enjoy projects that connect product thinking with real systems work: shipping, iterating, learning fast, and making technical ideas useful in production."
+        - paragraph [ref=e264]: "Space exploration, astronomy, and hands-on experimentation continue to shape how I think about engineering: ambitious, practical, and grounded in real-world constraints."
+    - generic [ref=e266]:
+      - generic [ref=e267]:
+        - heading "Reaching for the Stars" [level=2] [ref=e268]
+        - paragraph [ref=e269]: Graduating with a B.S. in Computer Science remains one of the milestones that sharpened both my discipline and range. It represents the foundation behind the product work, systems thinking, and engineering curiosity that continue to guide me.
+        - paragraph [ref=e270]: Gracias Mama por apoyarme siempre, creer en mi, and helping make this moment possible.
+      - figure [ref=e271]:
+        - img "Jesus Ugarte at graduation" [ref=e273]
+    - generic [ref=e275]:
+      - heading "Get In Touch" [level=2] [ref=e276]
+      - paragraph [ref=e277]: I am open to product engineering roles, consulting conversations, and ambitious builds where AI, software, and execution quality matter.
+      - generic [ref=e278]:
+        - link "Email Me" [ref=e279] [cursor=pointer]:
+          - /url: mailto:Jesusugarte10@gmail.com
+        - link "View Resume" [ref=e280] [cursor=pointer]:
+          - /url: assets/documents/RESUME.pdf
+      - generic [ref=e281]:
+        - link "Jesusugarte10@gmail.com" [ref=e282] [cursor=pointer]:
+          - /url: mailto:Jesusugarte10@gmail.com
+        - link "linkedin.com/in/jesusugarte" [ref=e283] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/jesusugarte/
+        - link "github.com/jesusugarte10" [ref=e284] [cursor=pointer]:
+          - /url: https://github.com/jesusugarte10
+        - link "kaggle.com/jesusugarte" [ref=e285] [cursor=pointer]:
+          - /url: https://www.kaggle.com/jesusugarte
+  - contentinfo [ref=e286]:
+    - paragraph [ref=e287]: © 2026 Jesus Ugarte. Public project snapshot updated May 5, 2026.
