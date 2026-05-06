@@ -278,6 +278,7 @@ section[id] {
 
 .hero-grid,
 .section-heading,
+.section-subheading,
 .two-column-layout,
 .contact-card,
 .archive-toolbar,
@@ -415,6 +416,7 @@ section[id] {
 .media-shell,
 .image-shell,
 .featured-card,
+.experience-card,
 .repo-item,
 .contact-card {
     border: 1px solid var(--border);
@@ -491,6 +493,7 @@ section[id] {
 }
 
 .section-heading h2,
+.section-subheading h3,
 .section-copy h2,
 .contact-card h2 {
     font-size: clamp(2.2rem, 4vw, 3.45rem);
@@ -498,6 +501,7 @@ section[id] {
 }
 
 .section-heading p,
+.section-subheading p,
 .section-copy p,
 .contact-card p {
     max-width: 760px;
@@ -507,12 +511,31 @@ section[id] {
     line-height: 1.8;
 }
 
+.section-subheading {
+    margin: 3.25rem auto 1.75rem;
+}
+
+.section-subheading h3,
+.experience-card h3,
+.experience-company {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.section-subheading h3 {
+    font-size: clamp(1.65rem, 2.6vw, 2.2rem);
+    line-height: 1.08;
+}
+
 .featured-grid {
     width: var(--content-width);
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 24px;
+}
+
+.research-grid {
+    margin-top: 0;
 }
 
 .featured-card {
@@ -524,6 +547,12 @@ section[id] {
     border-radius: var(--radius-md);
     background:
         linear-gradient(180deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0.015)),
+        var(--bg-card);
+}
+
+.research-card {
+    background:
+        linear-gradient(180deg, rgba(87, 212, 255, 0.06), rgba(255, 255, 255, 0.015)),
         var(--bg-card);
 }
 
@@ -604,6 +633,76 @@ section[id] {
 .link-button:focus-visible {
     border-color: var(--border-strong);
     background: rgba(87, 212, 255, 0.1);
+}
+
+.work-experience-list {
+    width: var(--content-width);
+    margin: 0 auto;
+    display: grid;
+    gap: 18px;
+}
+
+.experience-card {
+    display: grid;
+    gap: 1rem;
+    padding: 28px;
+    border-radius: 24px;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.015)),
+        rgba(10, 22, 38, 0.9);
+}
+
+.experience-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.experience-title-group {
+    display: grid;
+    gap: 8px;
+}
+
+.experience-company {
+    color: var(--accent-strong);
+    font-size: 0.9rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.experience-card h3 {
+    font-size: 1.45rem;
+    line-height: 1.12;
+}
+
+.experience-meta {
+    display: grid;
+    gap: 8px;
+    justify-items: end;
+    color: var(--muted-strong);
+    font-size: 0.92rem;
+    font-weight: 700;
+    text-align: right;
+}
+
+.experience-summary {
+    color: var(--muted);
+    line-height: 1.75;
+}
+
+.experience-bullets {
+    display: grid;
+    gap: 0.8rem;
+    padding-left: 1.2rem;
+    color: var(--muted-strong);
+    line-height: 1.7;
+}
+
+.experience-bullets li::marker {
+    color: var(--accent-strong);
 }
 
 .archive-toolbar {
@@ -936,11 +1035,13 @@ section[id] {
 
     .hero-grid,
     .section-heading,
+    .section-subheading,
     .two-column-layout,
     .contact-card,
     .archive-toolbar,
     .archive-controls,
     .featured-grid,
+    .work-experience-list,
     .repo-list,
     .site-footer p {
         width: min(100vw - 36px, 1160px);
@@ -971,12 +1072,16 @@ section[id] {
     .hero-summary p,
     .hero-body,
     .section-heading p,
+    .section-subheading p,
     .section-copy p,
-    .contact-card p {
+    .contact-card p,
+    .experience-summary,
+    .experience-bullets {
         font-size: 0.98rem;
     }
 
     .featured-card,
+    .experience-card,
     .repo-item,
     .contact-card,
     .archive-controls,
@@ -986,20 +1091,28 @@ section[id] {
 
     .repo-header,
     .repo-footer,
+    .experience-header,
     .archive-toolbar,
     .archive-controls {
         align-items: stretch;
+    }
+
+    .experience-meta {
+        justify-items: start;
+        text-align: left;
     }
 }
 
 @media (max-width: 390px) {
     .hero-grid,
     .section-heading,
+    .section-subheading,
     .two-column-layout,
     .contact-card,
     .archive-toolbar,
     .archive-controls,
     .featured-grid,
+    .work-experience-list,
     .repo-list,
     .site-footer p {
         width: min(100vw - 28px, 1160px);

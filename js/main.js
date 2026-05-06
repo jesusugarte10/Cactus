@@ -1,7 +1,15 @@
-const portfolioData = window.PORTFOLIO_DATA || { featuredProducts: [], publicRepos: [], snapshotDate: "" };
+const portfolioData = window.PORTFOLIO_DATA || {
+    featuredProducts: [],
+    researchExperience: [],
+    workExperience: [],
+    publicRepos: [],
+    snapshotDate: ""
+};
 
 const currentYear = document.getElementById("current-year");
 const featuredGrid = document.getElementById("featured-grid");
+const researchGrid = document.getElementById("research-grid");
+const workExperienceList = document.getElementById("work-experience-list");
 const repoList = document.getElementById("repo-list");
 const repoCount = document.getElementById("repo-count");
 const snapshotDate = document.getElementById("snapshot-date");
@@ -54,9 +62,41 @@ const createTag = (label, accent = false) => {
     return `<span class="${className}">${label}</span>`;
 };
 
+const createLinkButton = (action) => `
+    <a class="link-button" href="${action.url}" target="_blank" rel="noopener noreferrer">${action.label}</a>
+`;
+
+const renderCardActions = (actions) => {
+    if (!actions.length) {
+        return "";
+    }
+
+    return `
+        <div class="card-actions">
+            ${actions.map((action) => createLinkButton(action)).join("")}
+        </div>
+    `;
+};
+
+const getEntryActions = (entry, fallbackLabel) => {
+    if (entry.actions?.length) {
+        return entry.actions;
+    }
+
+    if (entry.liveUrl) {
+        return [{ label: fallbackLabel, url: entry.liveUrl }];
+    }
+
+    return [];
+};
+
 const renderFeaturedProducts = () => {
+    if (!featuredGrid) {
+        return;
+    }
+
     featuredGrid.innerHTML = portfolioData.featuredProducts.map((product) => `
-        <article class="featured-card reveal">
+        <article class="featured-card product-card reveal">
             <div class="card-meta">
                 ${createTag(product.visibilityNote, true)}
             </div>
@@ -67,9 +107,54 @@ const renderFeaturedProducts = () => {
             <div class="featured-tags">
                 ${(product.tags || []).map((tag) => createTag(tag)).join("")}
             </div>
-            <div class="card-actions">
-                <a class="link-button" href="${product.liveUrl}" target="_blank" rel="noopener noreferrer">Visit Live Site</a>
+            ${renderCardActions(getEntryActions(product, "Visit Live Site"))}
+        </article>
+    `).join("");
+};
+
+const renderResearchExperience = () => {
+    if (!researchGrid) {
+        return;
+    }
+
+    researchGrid.innerHTML = portfolioData.researchExperience.map((entry) => `
+        <article class="featured-card research-card reveal">
+            <div class="card-meta">
+                ${createTag(entry.visibilityNote, true)}
             </div>
+            <div>
+                <h3>${entry.title}</h3>
+                <p>${entry.summary}</p>
+            </div>
+            <div class="featured-tags">
+                ${(entry.tags || []).map((tag) => createTag(tag)).join("")}
+            </div>
+            ${renderCardActions(getEntryActions(entry, "Open Link"))}
+        </article>
+    `).join("");
+};
+
+const renderWorkExperience = () => {
+    if (!workExperienceList) {
+        return;
+    }
+
+    workExperienceList.innerHTML = portfolioData.workExperience.map((role) => `
+        <article class="experience-card reveal">
+            <div class="experience-header">
+                <div class="experience-title-group">
+                    <p class="experience-company">${role.company}</p>
+                    <h3>${role.title}</h3>
+                </div>
+                <div class="experience-meta">
+                    <span>${role.dateRange}</span>
+                    <span>${role.location}</span>
+                </div>
+            </div>
+            <p class="experience-summary">${role.summary}</p>
+            <ul class="experience-bullets">
+                ${(role.bullets || []).map((bullet) => `<li>${bullet}</li>`).join("")}
+            </ul>
         </article>
     `).join("");
 };
@@ -371,6 +456,8 @@ const setupSmoothAnchors = () => {
 currentYear.textContent = new Date().getFullYear();
 setSnapshotLabel();
 renderFeaturedProducts();
+renderResearchExperience();
+renderWorkExperience();
 renderRepos();
 runRoleRotator();
 setupMenu();

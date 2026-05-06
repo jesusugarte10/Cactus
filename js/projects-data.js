@@ -74,6 +74,96 @@ window.PORTFOLIO_DATA = {
             "visibilityNote": "Private product with live site"
         }
     ],
+    "researchExperience": [
+        {
+            "id": "real-time-magnification-ar",
+            "title": "Real-Time Magnification in Augmented Reality",
+            "summary": "Mixed reality publication on real-time AR magnification with a HoloLens 2 prototype, recognized with the ACM SUI 2021 Best Poster/Demo Award.",
+            "tags": [
+                "ACM SUI 2021",
+                "Best Poster/Demo Award",
+                "UCF",
+                "Mixed Reality"
+            ],
+            "visibilityNote": "Peer-reviewed publication with award evidence",
+            "actions": [
+                {
+                    "label": "View PDF",
+                    "url": "https://sreal.ucf.edu/wp-content/uploads/2021/09/SUI2021_AR_Magnification_DEMO.pdf"
+                },
+                {
+                    "label": "View Evidence",
+                    "url": "https://www.acm.org/conferences/best-paper-awards-2021"
+                }
+            ]
+        },
+        {
+            "id": "distant-hand-interaction-ar",
+            "title": "Distant Hand Interaction Framework in Augmented Reality",
+            "summary": "Augmented reality framework for distant hand interaction, mapping techniques, and HoloLens-based communication experiments published through IEEE VRW 2022.",
+            "tags": [
+                "IEEE VRW 2022",
+                "UCF",
+                "Augmented Reality",
+                "HoloLens"
+            ],
+            "visibilityNote": "Peer-reviewed publication with public lab record",
+            "actions": [
+                {
+                    "label": "View PDF",
+                    "url": "https://sreal.ucf.edu/wp-content/uploads/2022/05/Distant_Hand_Interaction_Framework_in_Augmented_Reality.pdf"
+                },
+                {
+                    "label": "View Evidence",
+                    "url": "https://sreal.ucf.edu/sreal/people/nahal-norouzi/nahal-norouzi/"
+                }
+            ]
+        }
+    ],
+    "workExperience": [
+        {
+            "id": "bank-of-america-senior-software-engineer",
+            "company": "Bank of America",
+            "title": "Senior Software Engineer",
+            "location": "Charlotte, North Carolina",
+            "dateRange": "Feb 2026 - Present",
+            "summary": "Enterprise platform engineering for virtual desktop lifecycle operations and operational reporting.",
+            "bullets": [
+                "Built a multi-tier VDI lifecycle platform spanning web UI, application servers, and SQL Server.",
+                "Implemented modular .NET services with REST and OData endpoints for inventory, lifecycle actions, and reporting.",
+                "Integrated VMware, Citrix, and Horizon systems with PowerShell automation for lifecycle and maintenance workflows.",
+                "Improved reporting, resilience, and secure role-based operational workflows for downstream teams."
+            ]
+        },
+        {
+            "id": "wells-fargo-software-engineer",
+            "company": "Wells Fargo Technology",
+            "title": "Software Engineer",
+            "location": "Charlotte, North Carolina",
+            "dateRange": "Oct 2022 - Dec 2025",
+            "summary": "Full-stack engineering, DevOps automation, and AI-assisted triage inside investment portfolio technology.",
+            "bullets": [
+                "Built full-stack .NET and Angular applications for investment portfolio systems used by internal teams.",
+                "Delivered a Generative AI workflow for large Excel vulnerability triage and faster critical issue analysis.",
+                "Led CI/CD improvements with Jenkins and IBM UrbanCode Deploy to reduce deployment time and improve release flow.",
+                "Expanded Python and PowerShell automation for release tasks, database operations, and large-scale vulnerability remediation."
+            ]
+        },
+        {
+            "id": "threatlocker-mobile-developer",
+            "company": "ThreatLocker",
+            "title": "Mobile (iOS | Android) Developer",
+            "location": "Maitland, Florida",
+            "dateRange": "May 2022 - Oct 2022",
+            "summary": "Cross-platform mobile development focused on security, performance, and delivery quality.",
+            "bullets": [
+                "Built and maintained a cross-platform mobile application used by more than 5,000 customers.",
+                "Improved app performance and scalability to reduce load times and support a growing user base.",
+                "Strengthened mobile security with MFA enforcement and device-level encryption practices.",
+                "Mentored junior developers while driving code review, QA, and delivery quality improvements."
+            ]
+        }
+    ],
     "publicRepos": [
         {
             "id": "sports-event-dashboard-fastbreak-interview",
